@@ -7,7 +7,7 @@
 (load "grid-make.ss")
 (load "grid-stack.ss")
 (load "grid-queue.ss")
-
+;commit test
 (define grid0 (make-grid num-col-row)) 
 (draw-obstacles grid0)
 (define grid (convert-grid grid0))
